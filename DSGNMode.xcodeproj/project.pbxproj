@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		212354FB42F348BA7D77A5AB /* VCDesignMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 212355C9DDE8ADBD3433AD36 /* VCDesignMode.m */; };
-		21235696A92FD87845FADEAD /* UIView+MoveAndScaleByDrag.m in Sources */ = {isa = PBXBuildFile; fileRef = 21235A850EC5A1E8D2F62BB2 /* UIView+MoveAndScaleByDrag.m */; };
 		2123571BBE6A2AB4EA36CC4C /* DSGNWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 212352BAAEA86CB271870BEC /* DSGNWorker.m */; };
 		21235894002A6571A85AF293 /* DSGNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2123586D99CF0A99A74B9CDB /* DSGNButton.m */; };
 		21235F858B5CFCE6668522C4 /* DSGNLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2123524309D9881761823FB8 /* DSGNLabel.m */; };
@@ -44,11 +43,9 @@
 		212352BAAEA86CB271870BEC /* DSGNWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSGNWorker.m; sourceTree = "<group>"; };
 		212355C9DDE8ADBD3433AD36 /* VCDesignMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCDesignMode.m; sourceTree = "<group>"; };
 		212355DAEDFB030505617ACB /* DSGNLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSGNLabel.h; sourceTree = "<group>"; };
-		212356F716F6D1CB12B6518E /* UIView+MoveAndScaleByDrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MoveAndScaleByDrag.h"; sourceTree = "<group>"; };
 		21235758E0E586608915B9E8 /* VCDesignMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCDesignMode.h; sourceTree = "<group>"; };
 		212357A69D5C80D46AF12C98 /* DSGNWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSGNWorker.h; sourceTree = "<group>"; };
 		2123586D99CF0A99A74B9CDB /* DSGNButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSGNButton.m; sourceTree = "<group>"; };
-		21235A850EC5A1E8D2F62BB2 /* UIView+MoveAndScaleByDrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MoveAndScaleByDrag.m"; sourceTree = "<group>"; };
 		877D9DCA19BBB53600079924 /* DSGNMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSGNMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		877D9DCD19BBB53600079924 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		877D9DCF19BBB53600079924 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -97,8 +94,6 @@
 		2123510E4C5D08A7E76EC40F /* coreElements */ = {
 			isa = PBXGroup;
 			children = (
-				212356F716F6D1CB12B6518E /* UIView+MoveAndScaleByDrag.h */,
-				21235A850EC5A1E8D2F62BB2 /* UIView+MoveAndScaleByDrag.m */,
 				21235758E0E586608915B9E8 /* VCDesignMode.h */,
 				212355C9DDE8ADBD3433AD36 /* VCDesignMode.m */,
 				2123524309D9881761823FB8 /* DSGNLabel.m */,
@@ -284,7 +279,6 @@
 			files = (
 				877D9DDE19BBB53600079924 /* AppDelegate.m in Sources */,
 				877D9DDA19BBB53600079924 /* main.m in Sources */,
-				21235696A92FD87845FADEAD /* UIView+MoveAndScaleByDrag.m in Sources */,
 				212354FB42F348BA7D77A5AB /* VCDesignMode.m in Sources */,
 				877D9E1419BBD1DC00079924 /* DSGNView.m in Sources */,
 				21235F858B5CFCE6668522C4 /* DSGNLabel.m in Sources */,
