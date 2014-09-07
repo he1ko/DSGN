@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212354FB42F348BA7D77A5AB /* VCDesignMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 212355C9DDE8ADBD3433AD36 /* VCDesignMode.m */; };
+		21235696A92FD87845FADEAD /* UIView+MoveAndScaleByDrag.m in Sources */ = {isa = PBXBuildFile; fileRef = 21235A850EC5A1E8D2F62BB2 /* UIView+MoveAndScaleByDrag.m */; };
+		2123571BBE6A2AB4EA36CC4C /* DSGNWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 212352BAAEA86CB271870BEC /* DSGNWorker.m */; };
+		21235894002A6571A85AF293 /* DSGNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2123586D99CF0A99A74B9CDB /* DSGNButton.m */; };
+		21235F858B5CFCE6668522C4 /* DSGNLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2123524309D9881761823FB8 /* DSGNLabel.m */; };
+		877D9DCE19BBB53600079924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877D9DCD19BBB53600079924 /* Foundation.framework */; };
+		877D9DD019BBB53600079924 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877D9DCF19BBB53600079924 /* CoreGraphics.framework */; };
+		877D9DD219BBB53600079924 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877D9DD119BBB53600079924 /* UIKit.framework */; };
+		877D9DD819BBB53600079924 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 877D9DD619BBB53600079924 /* InfoPlist.strings */; };
+		877D9DDA19BBB53600079924 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D9DD919BBB53600079924 /* main.m */; };
+		877D9DDE19BBB53600079924 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D9DDD19BBB53600079924 /* AppDelegate.m */; };
+		877D9DE119BBB53700079924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877D9DDF19BBB53700079924 /* Main.storyboard */; };
+		877D9DE919BBB53700079924 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877D9DE819BBB53700079924 /* Images.xcassets */; };
+		877D9DF019BBB53700079924 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877D9DEF19BBB53700079924 /* XCTest.framework */; };
+		877D9DF119BBB53700079924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877D9DCD19BBB53600079924 /* Foundation.framework */; };
+		877D9DF219BBB53700079924 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877D9DD119BBB53600079924 /* UIKit.framework */; };
+		877D9DFA19BBB53700079924 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 877D9DF819BBB53700079924 /* InfoPlist.strings */; };
+		877D9DFC19BBB53700079924 /* DSGNModeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D9DFB19BBB53700079924 /* DSGNModeTests.m */; };
+		877D9E1419BBD1DC00079924 /* DSGNView.m in Sources */ = {isa = PBXBuildFile; fileRef = 877D9E1319BBD1DC00079924 /* DSGNView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		877D9DF319BBB53700079924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 877D9DC219BBB53600079924 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 877D9DC919BBB53600079924;
+			remoteInfo = DSGNMode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2123524309D9881761823FB8 /* DSGNLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSGNLabel.m; sourceTree = "<group>"; };
+		2123524C94178DFF958802FA /* DSGNButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSGNButton.h; sourceTree = "<group>"; };
+		212352BAAEA86CB271870BEC /* DSGNWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSGNWorker.m; sourceTree = "<group>"; };
+		212355C9DDE8ADBD3433AD36 /* VCDesignMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCDesignMode.m; sourceTree = "<group>"; };
+		212355DAEDFB030505617ACB /* DSGNLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSGNLabel.h; sourceTree = "<group>"; };
+		212356F716F6D1CB12B6518E /* UIView+MoveAndScaleByDrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MoveAndScaleByDrag.h"; sourceTree = "<group>"; };
+		21235758E0E586608915B9E8 /* VCDesignMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCDesignMode.h; sourceTree = "<group>"; };
+		212357A69D5C80D46AF12C98 /* DSGNWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSGNWorker.h; sourceTree = "<group>"; };
+		2123586D99CF0A99A74B9CDB /* DSGNButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSGNButton.m; sourceTree = "<group>"; };
+		21235A850EC5A1E8D2F62BB2 /* UIView+MoveAndScaleByDrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MoveAndScaleByDrag.m"; sourceTree = "<group>"; };
+		877D9DCA19BBB53600079924 /* DSGNMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSGNMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		877D9DCD19BBB53600079924 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		877D9DCF19BBB53600079924 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		877D9DD119BBB53600079924 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		877D9DD519BBB53600079924 /* DSGNMode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DSGNMode-Info.plist"; sourceTree = "<group>"; };
+		877D9DD719BBB53600079924 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		877D9DD919BBB53600079924 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		877D9DDB19BBB53600079924 /* DSGNMode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DSGNMode-Prefix.pch"; sourceTree = "<group>"; };
+		877D9DDC19BBB53600079924 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		877D9DDD19BBB53600079924 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		877D9DE019BBB53700079924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		877D9DE819BBB53700079924 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		877D9DEE19BBB53700079924 /* DSGNModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSGNModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		877D9DEF19BBB53700079924 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		877D9DF719BBB53700079924 /* DSGNModeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DSGNModeTests-Info.plist"; sourceTree = "<group>"; };
+		877D9DF919BBB53700079924 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		877D9DFB19BBB53700079924 /* DSGNModeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSGNModeTests.m; sourceTree = "<group>"; };
+		877D9E1219BBD1DC00079924 /* DSGNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSGNView.h; sourceTree = "<group>"; };
+		877D9E1319BBD1DC00079924 /* DSGNView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSGNView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		877D9DC719BBB53600079924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877D9DD019BBB53600079924 /* CoreGraphics.framework in Frameworks */,
+				877D9DD219BBB53600079924 /* UIKit.framework in Frameworks */,
+				877D9DCE19BBB53600079924 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877D9DEB19BBB53700079924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877D9DF019BBB53700079924 /* XCTest.framework in Frameworks */,
+				877D9DF219BBB53700079924 /* UIKit.framework in Frameworks */,
+				877D9DF119BBB53700079924 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2123510E4C5D08A7E76EC40F /* coreElements */ = {
+			isa = PBXGroup;
+			children = (
+				212356F716F6D1CB12B6518E /* UIView+MoveAndScaleByDrag.h */,
+				21235A850EC5A1E8D2F62BB2 /* UIView+MoveAndScaleByDrag.m */,
+				21235758E0E586608915B9E8 /* VCDesignMode.h */,
+				212355C9DDE8ADBD3433AD36 /* VCDesignMode.m */,
+				2123524309D9881761823FB8 /* DSGNLabel.m */,
+				212355DAEDFB030505617ACB /* DSGNLabel.h */,
+				2123586D99CF0A99A74B9CDB /* DSGNButton.m */,
+				2123524C94178DFF958802FA /* DSGNButton.h */,
+				212352BAAEA86CB271870BEC /* DSGNWorker.m */,
+				212357A69D5C80D46AF12C98 /* DSGNWorker.h */,
+				877D9E1219BBD1DC00079924 /* DSGNView.h */,
+				877D9E1319BBD1DC00079924 /* DSGNView.m */,
+			);
+			path = coreElements;
+			sourceTree = "<group>";
+		};
+		877D9DC119BBB53600079924 = {
+			isa = PBXGroup;
+			children = (
+				877D9DD319BBB53600079924 /* DSGNMode */,
+				877D9DF519BBB53700079924 /* DSGNModeTests */,
+				877D9DCC19BBB53600079924 /* Frameworks */,
+				877D9DCB19BBB53600079924 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		877D9DCB19BBB53600079924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				877D9DCA19BBB53600079924 /* DSGNMode.app */,
+				877D9DEE19BBB53700079924 /* DSGNModeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		877D9DCC19BBB53600079924 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				877D9DCD19BBB53600079924 /* Foundation.framework */,
+				877D9DCF19BBB53600079924 /* CoreGraphics.framework */,
+				877D9DD119BBB53600079924 /* UIKit.framework */,
+				877D9DEF19BBB53700079924 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		877D9DD319BBB53600079924 /* DSGNMode */ = {
+			isa = PBXGroup;
+			children = (
+				2123510E4C5D08A7E76EC40F /* coreElements */,
+				877D9DDC19BBB53600079924 /* AppDelegate.h */,
+				877D9DDD19BBB53600079924 /* AppDelegate.m */,
+				877D9DDF19BBB53700079924 /* Main.storyboard */,
+				877D9DE819BBB53700079924 /* Images.xcassets */,
+				877D9DD419BBB53600079924 /* Supporting Files */,
+			);
+			path = DSGNMode;
+			sourceTree = "<group>";
+		};
+		877D9DD419BBB53600079924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				877D9DD519BBB53600079924 /* DSGNMode-Info.plist */,
+				877D9DD619BBB53600079924 /* InfoPlist.strings */,
+				877D9DD919BBB53600079924 /* main.m */,
+				877D9DDB19BBB53600079924 /* DSGNMode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		877D9DF519BBB53700079924 /* DSGNModeTests */ = {
+			isa = PBXGroup;
+			children = (
+				877D9DFB19BBB53700079924 /* DSGNModeTests.m */,
+				877D9DF619BBB53700079924 /* Supporting Files */,
+			);
+			path = DSGNModeTests;
+			sourceTree = "<group>";
+		};
+		877D9DF619BBB53700079924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				877D9DF719BBB53700079924 /* DSGNModeTests-Info.plist */,
+				877D9DF819BBB53700079924 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		877D9DC919BBB53600079924 /* DSGNMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877D9DFF19BBB53700079924 /* Build configuration list for PBXNativeTarget "DSGNMode" */;
+			buildPhases = (
+				877D9DC619BBB53600079924 /* Sources */,
+				877D9DC719BBB53600079924 /* Frameworks */,
+				877D9DC819BBB53600079924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSGNMode;
+			productName = DSGNMode;
+			productReference = 877D9DCA19BBB53600079924 /* DSGNMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		877D9DED19BBB53700079924 /* DSGNModeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877D9E0219BBB53700079924 /* Build configuration list for PBXNativeTarget "DSGNModeTests" */;
+			buildPhases = (
+				877D9DEA19BBB53700079924 /* Sources */,
+				877D9DEB19BBB53700079924 /* Frameworks */,
+				877D9DEC19BBB53700079924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				877D9DF419BBB53700079924 /* PBXTargetDependency */,
+			);
+			name = DSGNModeTests;
+			productName = DSGNModeTests;
+			productReference = 877D9DEE19BBB53700079924 /* DSGNModeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		877D9DC219BBB53600079924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = KrisKo;
+				TargetAttributes = {
+					877D9DED19BBB53700079924 = {
+						TestTargetID = 877D9DC919BBB53600079924;
+					};
+				};
+			};
+			buildConfigurationList = 877D9DC519BBB53600079924 /* Build configuration list for PBXProject "DSGNMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 877D9DC119BBB53600079924;
+			productRefGroup = 877D9DCB19BBB53600079924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				877D9DC919BBB53600079924 /* DSGNMode */,
+				877D9DED19BBB53700079924 /* DSGNModeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		877D9DC819BBB53600079924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877D9DE919BBB53700079924 /* Images.xcassets in Resources */,
+				877D9DD819BBB53600079924 /* InfoPlist.strings in Resources */,
+				877D9DE119BBB53700079924 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877D9DEC19BBB53700079924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877D9DFA19BBB53700079924 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		877D9DC619BBB53600079924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877D9DDE19BBB53600079924 /* AppDelegate.m in Sources */,
+				877D9DDA19BBB53600079924 /* main.m in Sources */,
+				21235696A92FD87845FADEAD /* UIView+MoveAndScaleByDrag.m in Sources */,
+				212354FB42F348BA7D77A5AB /* VCDesignMode.m in Sources */,
+				877D9E1419BBD1DC00079924 /* DSGNView.m in Sources */,
+				21235F858B5CFCE6668522C4 /* DSGNLabel.m in Sources */,
+				21235894002A6571A85AF293 /* DSGNButton.m in Sources */,
+				2123571BBE6A2AB4EA36CC4C /* DSGNWorker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877D9DEA19BBB53700079924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877D9DFC19BBB53700079924 /* DSGNModeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		877D9DF419BBB53700079924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 877D9DC919BBB53600079924 /* DSGNMode */;
+			targetProxy = 877D9DF319BBB53700079924 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		877D9DD619BBB53600079924 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877D9DD719BBB53600079924 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		877D9DDF19BBB53700079924 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877D9DE019BBB53700079924 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		877D9DF819BBB53700079924 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877D9DF919BBB53700079924 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		877D9DFD19BBB53700079924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		877D9DFE19BBB53700079924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		877D9E0019BBB53700079924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSGNMode/DSGNMode-Prefix.pch";
+				INFOPLIST_FILE = "DSGNMode/DSGNMode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		877D9E0119BBB53700079924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSGNMode/DSGNMode-Prefix.pch";
+				INFOPLIST_FILE = "DSGNMode/DSGNMode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		877D9E0319BBB53700079924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DSGNMode.app/DSGNMode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSGNMode/DSGNMode-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DSGNModeTests/DSGNModeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		877D9E0419BBB53700079924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DSGNMode.app/DSGNMode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSGNMode/DSGNMode-Prefix.pch";
+				INFOPLIST_FILE = "DSGNModeTests/DSGNModeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		877D9DC519BBB53600079924 /* Build configuration list for PBXProject "DSGNMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877D9DFD19BBB53700079924 /* Debug */,
+				877D9DFE19BBB53700079924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877D9DFF19BBB53700079924 /* Build configuration list for PBXNativeTarget "DSGNMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877D9E0019BBB53700079924 /* Debug */,
+				877D9E0119BBB53700079924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877D9E0219BBB53700079924 /* Build configuration list for PBXNativeTarget "DSGNModeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877D9E0319BBB53700079924 /* Debug */,
+				877D9E0419BBB53700079924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 877D9DC219BBB53600079924 /* Project object */;
+}
